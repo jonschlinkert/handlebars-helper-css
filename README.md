@@ -5,6 +5,7 @@
 This helper can optionally manage:
 
 * minification
+* concatenation
 * revisioning / cache-busting
 * copying files to dest directory (e.g. `assets/css/`)
 * deleting files prior to each build
@@ -19,6 +20,12 @@ This helper can optionally manage:
 Results in something like:
 
 ```html
+<link rel="stylesheet" href="../../../assets/css/18f5e.styles.min.css">
+```
+
+Or without concatenation:
+
+```html
 <link rel="stylesheet" href="../../../assets/css/3df5e.ad.min.css">
 <link rel="stylesheet" href="../../../assets/css/42772.banner.min.css">
 <link rel="stylesheet" href="../../../assets/css/39528.body.min.css">
@@ -27,6 +34,8 @@ Results in something like:
 <link rel="stylesheet" href="../../../assets/css/efcde.examples.min.css">
 <link rel="stylesheet" href="../../../assets/css/9eaf6.footer.min.css">
 ```
+
+
 
 ## Installation
 
