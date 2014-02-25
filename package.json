@@ -1,0 +1,44 @@
+{
+  "name": "handlebars-helper-css",
+  "version": "0.1.0",
+  "description": "{{css}} handlebars helper, for dynamically updating <link> tags for stylesheets, with options for adding, removing, revisioning, and minification.",
+  "homepage": "https://github.com/helpers/handlebars-helper-css",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helpers/handlebars-helper-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/helpers/handlebars-helper-css/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/helpers/handlebars-helper-css/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "async": "~0.2.10",
+    "lodash": "~2.4.1",
+    "clean-css": "~2.1.1",
+    "fs-utils": "~0.3.6",
+    "relative": "~0.1.2"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.36",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-sync-pkg": "~0.1.2",
+    "handlebars-helper-prettify": "~0.2.1",
+    "time-grunt": "~0.2.9"
+  },
+  "keywords": [
+    "handlebars-helper-prettify",
+    "rev",
+    "min"
+  ]
+}
